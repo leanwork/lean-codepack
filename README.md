@@ -1,4 +1,4 @@
-# CodePack
+# Leanwork CodePack
 
 Pacote de códigos utilitários, extensões e boas práticas usadas pela equipe de desenvolvimento da Leanwork.
 
