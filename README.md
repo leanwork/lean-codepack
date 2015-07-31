@@ -10,7 +10,7 @@ Leanwork.CodePack está disponível em [Nuget](https://nuget.org/packages/Leanwo
 PM> Install-Package Leanwork.CodePack
 ```
 
-# CodePack DataTables
+# DataTables
 
 Pacote de classes para auxiliar na integração server-side do jQuery DataTables no ASP.NET MVC.
 
@@ -23,7 +23,7 @@ Leanwork.CodePack.DataTables está disponível em [Nuget](https://nuget.org/pack
 PM> Install-Package Leanwork.CodePack.DataTables
 ```
 
-# CodePack Mvc
+# Mvc
 
 Pacote de extensões do ASP.NET MVC.
 
