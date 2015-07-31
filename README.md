@@ -16,6 +16,7 @@ Pacote de classes para auxiliar na integração server-side do jQuery DataTables
 
 ## Instalação
 
+
 Leanwork.CodePack.DataTables está disponível em [Nuget](https://nuget.org/packages/Leanwork.CodePack.DataTables/) e pode ser instalado via package console no Visual Studio:
 
 ```
