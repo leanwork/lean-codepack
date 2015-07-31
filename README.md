@@ -1,4 +1,4 @@
-# Leanwork CodePack
+# CodePack
 
 Pacote de códigos utilitários, extensões e boas práticas usadas pela equipe de desenvolvimento da Leanwork.
 
@@ -10,7 +10,7 @@ Leanwork.CodePack está disponível em [Nuget](https://nuget.org/packages/Leanwo
 PM> Install-Package Leanwork.CodePack
 ```
 
-# Leanwork CodePack DataTables
+# CodePack DataTables
 
 Pacote de classes para auxiliar na integração server-side do jQuery DataTables no ASP.NET MVC.
 
@@ -23,7 +23,7 @@ Leanwork.CodePack.DataTables está disponível em [Nuget](https://nuget.org/pack
 PM> Install-Package Leanwork.CodePack.DataTables
 ```
 
-# Leanwork CodePack Mvc
+# CodePack Mvc
 
 Pacote de extensões do ASP.NET MVC.
 
