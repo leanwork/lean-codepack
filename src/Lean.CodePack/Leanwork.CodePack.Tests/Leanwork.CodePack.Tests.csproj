@@ -56,6 +56,7 @@
     <Compile Include="Extensions\BooleanExtensions_Should.cs" />
     <Compile Include="Extensions\DateTimeExtensions_Should.cs" />
     <Compile Include="Extensions\EnumExtensions_Should.cs" />
+    <Compile Include="Extensions\FormattersExtensions_Should.cs" />
     <Compile Include="Extensions\ListExtensions_Should.cs" />
     <Compile Include="Extensions\ObjectExtensions_Should.cs" />
     <Compile Include="Extensions\StringExtensions_Should.cs" />
