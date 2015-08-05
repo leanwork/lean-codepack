@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Leanwork.CodePack
+namespace Leanwork.CodePack.Utilities
 {
     public static class BrazilianTrackPostalCode
     {

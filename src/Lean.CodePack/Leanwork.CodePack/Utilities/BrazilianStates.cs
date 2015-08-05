@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Leanwork.CodePack
+namespace Leanwork.CodePack.Utilities
 {
     public static class BrazilianStates
     {

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Security.Cryptography;
 
-namespace JovemCar
+namespace Leanwork.CodePack.Utilities
 {
     public class SecureRandom
     {
