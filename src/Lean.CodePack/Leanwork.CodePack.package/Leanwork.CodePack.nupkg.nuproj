@@ -19,7 +19,7 @@
   <Import Project="$(NuProjPath)\NuProj.props" Condition="Exists('$(NuProjPath)\NuProj.props')" />
   <PropertyGroup Label="Configuration">
     <Id>Leanwork.CodePack</Id>
-    <Version>1.0.2</Version>
+    <Version>1.1.2</Version>
     <Title>Leanwork.CodePack</Title>
     <Authors>Leanwork</Authors>
     <Owners>https://www.nuget.org/profiles/leanwork</Owners>

@@ -246,5 +246,58 @@ namespace Leanwork.CodePack.Tests.Extensions
             //assert
             Assert.AreEqual("1238797888764", result);
         }
+
+        [TestMethod]
+        public void Convert_string_to_boolean_true()
+        {
+            //arrange
+            string value1 = "true";
+            string value2 = "TRUE";
+            string value3 = "True";
+            string value4 = "1";
+
+            //act
+            bool result1 = value1.ToBoolean();
+            bool result2 = value2.ToBoolean();
+            bool result3 = value3.ToBoolean();
+            bool result4 = value4.ToBoolean();
+
+            //assert
+            Assert.IsTrue(result1);
+            Assert.IsTrue(result2);
+            Assert.IsTrue(result3);
+            Assert.IsFalse(result4);
+        }
+
+        [TestMethod]
+        public void Cannot_convert_string_to_boolean()
+        {
+            //arrange
+            string value1 = "false";
+            string value2 = "FALSE";
+            string value3 = "False";
+            string value4 = "0";
+            string value5 = null;
+            string value6 = "";
+            string value7 = "leanwork";
+
+            //act
+            bool result1 = value1.ToBoolean();
+            bool result2 = value2.ToBoolean();
+            bool result3 = value3.ToBoolean();
+            bool result4 = value4.ToBoolean();
+            bool result5 = value5.ToBoolean();
+            bool result6 = value6.ToBoolean();
+            bool result7 = value7.ToBoolean();
+
+            //assert
+            Assert.IsFalse(result1);
+            Assert.IsFalse(result2);
+            Assert.IsFalse(result3);
+            Assert.IsFalse(result4);
+            Assert.IsFalse(result5);
+            Assert.IsFalse(result6);
+            Assert.IsFalse(result7);
+        }
     }
 }

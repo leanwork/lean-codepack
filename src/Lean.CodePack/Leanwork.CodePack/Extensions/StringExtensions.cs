@@ -184,17 +184,43 @@ namespace Leanwork.CodePack
             return String.Format("{0:0.00}", value).Replace(",", ".");
         }
 
-        public static Int32 ToInt32(this string value)
+        public static Int16 ToInt16(this string value)
         {
-            int result = 0;
-            Int32.TryParse(value, out result);
+            Int16 result = 0;
+            if (!Int16.TryParse(value, out result))
+            {
+                result = 0;
+            }
             return result;
         }
 
-        public static long ToLong(this string value)
+        public static Int32 ToInt32(this string value)
         {
-            long result = 0;
-            Int64.TryParse(value, out result);
+            Int32 result = 0;
+            if (!Int32.TryParse(value, out result))
+            {
+                result = 0;
+            }
+            return result;
+        }
+
+        public static Int64 ToInt64(this string value)
+        {
+            Int64 result = 0;
+            if (!Int64.TryParse(value, out result))
+            {
+                result = 0;
+            }
+            return result;
+        }
+
+        public static Boolean ToBoolean(this string value)
+        {
+            Boolean result = false;
+            if (!Boolean.TryParse(value, out result))
+            {
+                result = false;
+            }
             return result;
         }
 
