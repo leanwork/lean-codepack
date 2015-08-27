@@ -70,6 +70,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ActionFilters\SubmitAttribute.cs" />
+    <Compile Include="ActionFilters\WhitespaceFilterAttribute.cs" />
     <Compile Include="ActionResult\XmlResult.cs" />
     <Compile Include="CustomRoutes\AdminRoute.cs" />
     <Compile Include="CustomRoutes\RouteTableExtensions.cs" />
