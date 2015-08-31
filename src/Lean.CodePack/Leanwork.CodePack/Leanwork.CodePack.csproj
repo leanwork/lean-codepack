@@ -59,6 +59,7 @@
     <Compile Include="Extensions\ValidateExtensions.cs" />
     <Compile Include="Patterns\Singleton.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Utilities\BrazilianRegions.cs" />
     <Compile Include="Utilities\BrazilianStates.cs" />
     <Compile Include="Utilities\MailValidator.cs" />
     <Compile Include="Utilities\SecureRandom.cs" />
