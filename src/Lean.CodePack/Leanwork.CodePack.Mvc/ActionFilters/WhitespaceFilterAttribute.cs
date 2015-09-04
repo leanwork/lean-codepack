@@ -43,7 +43,7 @@ namespace Leanwork.CodePack.Mvc
         }
     }
 
-    public class WhiteSpaceFilter : Stream
+    internal class WhiteSpaceFilter : Stream
     {
         private Stream _shrink;
         private Func<string, string> _filter;
