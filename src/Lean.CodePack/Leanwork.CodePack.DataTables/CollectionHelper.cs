@@ -12,7 +12,10 @@ namespace Leanwork.CodePack.DataTables
         public static jQueryDataTableResponseModel DataTableResponse<TSource>(this IQueryable<TSource> source, jQueryDataTableRequestModel request)
         {
             int total = source.Count();
-            source = source.Skip(request.iDisplayStart).Take(request.iDisplayLength);
+            if (request.iDisplayLength > 0)
+            {
+                source = source.Skip(request.iDisplayStart).Take(request.iDisplayLength);   
+            }
 
             jQueryDataTableResponseModel response = new jQueryDataTableResponseModel();
             response.sEcho = request.sEcho;
