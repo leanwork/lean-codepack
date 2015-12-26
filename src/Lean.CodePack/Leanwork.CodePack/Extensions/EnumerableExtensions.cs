@@ -60,5 +60,29 @@ namespace Leanwork.CodePack
             }
             return null;
         }
+
+        public static IEnumerable<IEnumerable<T>> IntercalateValues<T>(this IEnumerable<IEnumerable<T>> source)
+        {
+            var enumerators = source
+                .Select(e => e.GetEnumerator())
+                .ToArray();
+
+            try
+            {
+                T[] g;
+                do
+                {
+                    yield return g = enumerators
+                        .Where(e => e.MoveNext())
+                        .Select(e => e.Current)
+                        .ToArray();
+                }
+                while (g.Any());
+            }
+            finally
+            {
+                Array.ForEach(enumerators, e => e.Dispose());
+            }
+        }
     }
 }
