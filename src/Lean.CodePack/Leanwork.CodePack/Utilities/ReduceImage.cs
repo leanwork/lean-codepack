@@ -12,7 +12,7 @@ namespace Leanwork.CodePack.Utilities
             // Create a Bitmap object based on a BMP file.
             using (Bitmap myBitmap = new Bitmap(file))
             {
-                SavePath(pathSource, quality, myBitmap);
+                SavePathSource(pathSource, quality, myBitmap);
             }
         }
 
@@ -21,7 +21,7 @@ namespace Leanwork.CodePack.Utilities
             // Create a Bitmap object based on a BMP file.
             using (Bitmap myBitmap = new Bitmap(fileName))
             {
-                SavePath(pathSource, quality, myBitmap);
+                SavePathSource(pathSource, quality, myBitmap);
             }
         }
 
@@ -30,11 +30,11 @@ namespace Leanwork.CodePack.Utilities
             // Create a Bitmap object based on a BMP file.
             using (Bitmap myBitmap = new Bitmap(stream))
             {
-                return Treatment(stream, qulity, myBitmap);
+                return SaveInMemory(stream, qulity, myBitmap);
             }
         }
 
-        private Bitmap Treatment(Stream stream, long quality, Bitmap myBitmap)
+        Bitmap SaveInMemory(Stream stream, long quality, Bitmap myBitmap)
         {
             ImageCodecInfo myImageCodecInfo;
             Encoder myEncoder;
@@ -60,7 +60,7 @@ namespace Leanwork.CodePack.Utilities
             return myBitmap;
         }
 
-        void SavePath(string pathSource, long quality, Bitmap myBitmap)
+        void SavePathSource(string pathSource, long quality, Bitmap myBitmap)
         {
             ImageCodecInfo myImageCodecInfo;
             Encoder myEncoder;
