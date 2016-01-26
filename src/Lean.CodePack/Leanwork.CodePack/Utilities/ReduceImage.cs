@@ -25,12 +25,12 @@ namespace Leanwork.CodePack.Utilities
             }
         }
 
-        public Bitmap Reduce(Stream stream, long qulity = 50)
+        public Bitmap Reduce(Stream stream, long quality = 50)
         {
             // Create a Bitmap object based on a BMP file.
             using (Bitmap myBitmap = new Bitmap(stream))
             {
-                return SaveInMemory(stream, qulity, myBitmap);
+                return SaveInMemory(stream, quality, myBitmap);
             }
         }
 
