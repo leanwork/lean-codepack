@@ -21,7 +21,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Leanwork.CodePack.WebAPI", 
 EndProject
 Project("{FF286327-C783-4F7A-AB73-9BCBAD0D4460}") = "Leanwork.CodePack.DataTables.nupkg", "Leanwork.CodePack.DataTables.nupkg\Leanwork.CodePack.DataTables.nupkg.nuproj", "{CB3AD60A-6BC1-44A7-8428-AFF74DB4F53B}"
 EndProject
-Project("{FF286327-C783-4F7A-AB73-9BCBAD0D4460}") = "Leanwork.CodePack.Mvc.nupkg", "Leanwork.CodePack.Mvc.nupkg\Leanwork.CodePack.Mvc.nupkg.nuproj", "{0F602F16-635E-42B9-8EB7-55F20F8927F3}"
+Project("{FF286327-C783-4F7A-AB73-9BCBAD0D4460}") = "Leanwork.CodePack.Mvc.nupkg", "Leanwork.CodePack.Mvc.package\Leanwork.CodePack.Mvc.nupkg.nuproj", "{0F602F16-635E-42B9-8EB7-55F20F8927F3}"
 EndProject
 Project("{FF286327-C783-4F7A-AB73-9BCBAD0D4460}") = "Leanwork.CodePack.WebAPI.nupkg", "Leanwork.CodePack.WebAPI.nupkg\Leanwork.CodePack.WebAPI.nupkg.nuproj", "{5701862D-D04C-4A51-A050-85071A5760E4}"
 EndProject

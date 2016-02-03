@@ -36,6 +36,7 @@
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
     <Reference Include="System.Web" />
     <Reference Include="System.Web.Abstractions" />
     <Reference Include="System.Web.Helpers, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
@@ -71,6 +72,7 @@
   <ItemGroup>
     <Compile Include="ActionFilters\SubmitAttribute.cs" />
     <Compile Include="ActionFilters\WhitespaceFilterAttribute.cs" />
+    <Compile Include="ActionResult\ExcelResult.cs" />
     <Compile Include="ActionResult\XmlResult.cs" />
     <Compile Include="CustomRoutes\AdminRoute.cs" />
     <Compile Include="CustomRoutes\RouteTableExtensions.cs" />
@@ -78,7 +80,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="packages.config" />
+    <None Include="packages.config">
+      <SubType>Designer</SubType>
+    </None>
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
