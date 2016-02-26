@@ -76,7 +76,9 @@
     <Compile Include="ActionResult\XmlResult.cs" />
     <Compile Include="CustomRoutes\AdminRoute.cs" />
     <Compile Include="CustomRoutes\RouteTableExtensions.cs" />
+    <Compile Include="ModelBinders\DateTimeModelBinder.cs" />
     <Compile Include="ModelBinders\DecimalModelBinder.cs" />
+    <Compile Include="ModelBinders\ModelBinder.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
