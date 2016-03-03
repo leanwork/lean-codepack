@@ -17,5 +17,15 @@ namespace Leanwork.CodePack
             }
             return result;
         }
+
+        public static decimal Percentage(this decimal total, decimal amount)
+        {
+            decimal result = 0;
+            if (total > 0)
+            {
+                result = (amount / total) * 100;
+            }
+            return result;
+        }
     }
 }
