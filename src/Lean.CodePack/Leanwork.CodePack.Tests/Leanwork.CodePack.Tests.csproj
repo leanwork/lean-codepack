@@ -60,6 +60,7 @@
     <Compile Include="Extensions\EnumerableExtensions_Should.cs" />
     <Compile Include="Extensions\ListExtensions_Should.cs" />
     <Compile Include="Extensions\ObjectExtensions_Should.cs" />
+    <Compile Include="Extensions\MathExtensions_Should.cs" />
     <Compile Include="Extensions\StringExtensions_Should.cs" />
     <Compile Include="Helpers\EnumToTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
