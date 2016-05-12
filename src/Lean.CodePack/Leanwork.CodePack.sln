@@ -36,6 +36,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{9ABD55
 EndProject
 Project("{FF286327-C783-4F7A-AB73-9BCBAD0D4460}") = "Leanwork.CodePack.Storage.nupkg", "Leanwork.CodePack.Storage.nupkg\Leanwork.CodePack.Storage.nupkg.nuproj", "{80F877BE-C3D4-47B2-83C9-90DD170AD02C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Leanwork.CodePack.Mail", "Leanwork.CodePack.Mail\Leanwork.CodePack.Mail.csproj", "{9CF776F4-7A2D-4C54-8E3A-A830763D4A9F}"
+EndProject
+Project("{FF286327-C783-4F7A-AB73-9BCBAD0D4460}") = "Leanwork.CodePack.Mail.nupkg", "Leanwork.CodePack.Mail.nupkg\Leanwork.CodePack.Mail.nupkg.nuproj", "{EDA7ACA9-6EEC-4302-A31A-F2DD9842A8D3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -86,6 +90,14 @@ Global
 		{80F877BE-C3D4-47B2-83C9-90DD170AD02C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{80F877BE-C3D4-47B2-83C9-90DD170AD02C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{80F877BE-C3D4-47B2-83C9-90DD170AD02C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CF776F4-7A2D-4C54-8E3A-A830763D4A9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CF776F4-7A2D-4C54-8E3A-A830763D4A9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CF776F4-7A2D-4C54-8E3A-A830763D4A9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CF776F4-7A2D-4C54-8E3A-A830763D4A9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDA7ACA9-6EEC-4302-A31A-F2DD9842A8D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDA7ACA9-6EEC-4302-A31A-F2DD9842A8D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDA7ACA9-6EEC-4302-A31A-F2DD9842A8D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDA7ACA9-6EEC-4302-A31A-F2DD9842A8D3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -97,5 +109,6 @@ Global
 		{0F602F16-635E-42B9-8EB7-55F20F8927F3} = {97173DD8-51B2-4E21-8BB9-CCD0A9349356}
 		{5701862D-D04C-4A51-A050-85071A5760E4} = {97173DD8-51B2-4E21-8BB9-CCD0A9349356}
 		{80F877BE-C3D4-47B2-83C9-90DD170AD02C} = {97173DD8-51B2-4E21-8BB9-CCD0A9349356}
+		{EDA7ACA9-6EEC-4302-A31A-F2DD9842A8D3} = {97173DD8-51B2-4E21-8BB9-CCD0A9349356}
 	EndGlobalSection
 EndGlobal
