@@ -81,6 +81,7 @@
     <Compile Include="ModelBinders\DateTimeModelBinder.cs" />
     <Compile Include="ModelBinders\DecimalModelBinder.cs" />
     <Compile Include="ModelBinders\ModelBinder.cs" />
+    <Compile Include="ModelBinders\StringModelBinder.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
